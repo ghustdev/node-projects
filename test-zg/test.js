@@ -10,7 +10,7 @@ axios.get('https://desafio-endpoint-hashcode-n2.onrender.com/passo1')
     })
 
 axios.post('https://desafio-endpoint-hashcode-n2.onrender.com/passo2', {
-        cpf: '114.803.415-33'
+        cpf: ''
     })
     .then(function (response) {
         console.log('Response: ',response.data);
